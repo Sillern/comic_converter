@@ -89,7 +89,7 @@ from reportlab.lib.pagesizes import A4
 def create_pdf(image_paths, output_filepath):
     image_paths.sort()
     pdf = Canvas(output_filepath)
-    pdf.setAuthor("MangaCreator")
+    pdf.setAuthor("ComicConverter")
     for image_path in image_paths:
         image = Image.open(image_path)
         width, height = A4

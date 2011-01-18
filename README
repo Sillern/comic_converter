@@ -1,0 +1,20 @@
+Comic converter
+Sebastian Jegerås.
+
+Dependencies:
+    ReportLab
+    PIL
+    unrar
+    unzip
+
+Supported formats:
+    cbr
+    cbz
+
+Usage: 
+    Create a directory in the current directory called comics.
+    Put the files you want to convert there, only scans one layer deep at the moment.
+    Run python comic.py, which will unpack and process the files.
+    The resulting pdf is in a folder called processed.
+
+
